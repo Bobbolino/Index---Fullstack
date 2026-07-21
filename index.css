@@ -9,12 +9,15 @@ header {
   position: relative;
   margin: 0;
   padding: 20px;
+  min-height: 70px;
   background-color: navy;
   text-align: center;
+  box-sizing: border-box;
 }
 
 h1 {
   margin: 0;
+  padding: 0 220px;
   color: ghostwhite;
   font-size: clamp(28px, 6vw, 40px);
 }
@@ -28,6 +31,7 @@ p {
 .header-info {
   position: absolute;
   top: 50%;
+  left: 20px;
   transform: translateY(-50%);
   color: ghostwhite;
   text-align: left;
@@ -81,10 +85,6 @@ p {
 
 #about-button:hover,
 #top-button:hover {
-  background-color: darkblue;
-}
-
-#about-button:hover {
   background-color: darkblue;
 }
 
@@ -150,9 +150,13 @@ p {
   color: ghostwhite;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   header {
     padding: 15px;
+  }
+
+  h1 {
+    padding: 0;
   }
 
   .header-info {
