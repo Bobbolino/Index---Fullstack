@@ -66,6 +66,11 @@ p {
   object-position: center;
 }
 
+.nothingtosee {
+  color: black;
+  margin: 300px auto;
+}
+
 #about-button,
 #top-button {
   display: block;
@@ -148,6 +153,10 @@ p {
 .card-back h3,
 .card-back p {
   color: ghostwhite;
+}
+
+.future-card {
+  grid-column: 1 / -1;
 }
 
 @media (max-width: 900px) {
