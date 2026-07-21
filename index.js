@@ -56,3 +56,5 @@ topButton.addEventListener("click", function () {
     block: "start",
   });
 });
+
+console.log("Nyfiken utvecklare? Vågat...");

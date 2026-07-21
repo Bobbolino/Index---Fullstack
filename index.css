@@ -71,6 +71,21 @@ p {
   margin: 300px auto;
 }
 
+footer {
+  background-color: navy;
+  color: ghostwhite;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+footer h3 {
+  color: ghostwhite;
+}
+
+footer p {
+  color: ghostwhite;
+}
+
 #about-button,
 #top-button {
   display: block;
