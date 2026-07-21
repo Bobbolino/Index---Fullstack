@@ -89,12 +89,12 @@ p {
 }
 
 .intro-section {
-  min-height: 500px;
+  min-height: 100vh;
   box-sizing: border-box;
 }
 
 .about-section {
-  min-height: 50vh;
+  min-height: 100vh;
   box-sizing: border-box;
 }
 
